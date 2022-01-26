@@ -51,6 +51,10 @@ h1 {
   background-color: #C2CFB2;
 }
 
+.player2 {
+  display: none;
+}
+
 .winner {
   border: 1px solid black;
   margin: 2em;
@@ -60,7 +64,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   background-color: #C2CFB2;
-  /* display: none; */
+  display: none;
 }
 
 body {
