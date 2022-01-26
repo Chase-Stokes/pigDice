@@ -1,0 +1,68 @@
+.header {
+  border: solid black 2px;
+  text-align: center;
+  display: block;
+  padding: 2em;
+  margin: 2em;
+  background-image: url(https://m.media-amazon.com/images/I/31bZh2MGaRL._AC_SX466_.jpg);
+  -webkit-text-stroke: .3px white;
+}
+
+h1 {
+  animation: flip 2s linear;
+}
+@keyframes flip{
+  from{
+    transform: rotateY(0);
+  }
+    to{
+      transform: rotateY(360deg);
+    }
+}
+
+.total1 {
+  float: left;
+  margin-left: 3em;
+  border: 1px solid black;
+  padding: 1em;
+  height: 4em;
+  font-weight: bold;
+  background-color: #DDD1C7;
+}
+
+.total2 {
+  float: right;
+  margin-right: 3em;
+  border: 1px solid black;
+  padding: 1em;
+  height: 4em;
+  font-weight: bold;
+  background-color: #DDD1C7;
+}
+
+.player1, .player2 {
+  border: 1px solid black;
+  padding: 2em;
+  text-align: center;
+  max-width: 30em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8em;
+  background-color: #C2CFB2;
+}
+
+.winner {
+  border: 1px solid black;
+  margin: 2em;
+  padding: 2em;
+  text-align: center;
+  max-width: 30em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #C2CFB2;
+  /* display: none; */
+}
+
+body {
+  background-color: #8DB580;
+}
